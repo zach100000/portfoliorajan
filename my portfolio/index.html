@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajan - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 37);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 77);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            list-style: none;
+            margin: 0 23px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(211, 211, 248);
+            font-size: 1.04rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            
+        }
+        .leftsection .buttons{
+            padding: 50px 0; 
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background-color: rgb(30, 8, 65);
+            color: white;
+            border: 2px solid white;
+            font-size: 20px;
+            border-radius:10px ;
+            cursor: pointer;
+
+            
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(142, 57, 223);
+        }
+
+        #element {
+            color: rgb(146, 146, 238);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: lavender;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .textgrey {
+            color: rgb(143, 134, 134);
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .imagetop {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9;
+        }
+
+        .verticaltitle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .verticaldesc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(22, 21, 49);
+            
+        }
+
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 220px;
+        }
+        footer .footerrights{
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Rajan's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/">About</a>
+                    </li>
+                    <li>
+                        <a href="/">Services</a>
+                    </li>
+                    <li>
+                        <a href="/">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">HI, My name is <span class="purple">Rajan.</span>
+                <div>I am a passionate </div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                   <a href="mycv.pdf" download><button class="btn">Download Resume</button></a> 
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="pp.jpg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgrey">
+                what i have done so far
+            </span>
+            <h1>Work experience</h1>
+            <div class="box">
+                <div class="vertical"><img class="imagetop" src="html.png" alt="">
+                    <div class="verticaltitle">
+                        HTML,CSS, Bootstrap
+                    </div>
+                    <div class="verticaldesc">Learn from different 
+                        youtube channels, 
+                        know to use DOM elements 
+                    </div>
+                </div>
+                <div class="vertical"><img class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltitle">
+                        JavaScript developer
+                    </div>
+                    <div class="verticaldesc">Learn from different youtube channels.
+                        Worked in different foreign projects using JS. 
+                    </div>
+                </div>
+                <div class="vertical"><img class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltitle">
+                        Node.js developer
+                    </div>
+                    <div class="verticaldesc">Learn from different youtube channels
+                        Built different web API's.
+                    </div>
+                </div>
+                <div class="vertical"><img class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltitle">
+                        Furthermore..        
+                    </div>
+                    <div class="verticaldesc">Reactjs developer, SQL, 
+                        TailwindCSS
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rajan's Developer portfolio</h3>
+
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>follow me on </li>
+                    <li><a href="https://www.facebook.com/McCauley.10/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+
+                </ul>
+              
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Gmail me</li>
+                    <li><a href="razanacharya7@gmail.com"><ion-icon name="logo-google"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Contact me</li>
+                    <li><a href="9843703709"><ion-icon name="call-outline"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerrights">
+           Copyrights &copy; www.rajan'sportfolio.com | All rights reserved        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Teacher'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
